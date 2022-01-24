@@ -12,7 +12,7 @@ int main(){
     s1.append("check");              //append
     string s=s1.substr(6,4);      //substring
     cout<<s<<endl;
-    s1.erase(3,2);              //erase
+    s1.erase(3,2);               //erase
     cout<<s1<<endl;
     s1.clear();                //clear
     if(s1.empty()){            //empty
